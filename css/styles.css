@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Color, ajuste y contenido del footer*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container{
+display: flex;
+justify-content: space-around;
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    .footer-section a:hover {
+    
+        text-decoration: underline;
+        
+    }
+
+
+/*estructura entre fotos*/
+    
+div {
+    margin: 20px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  /*colores y configuracion del background*/
+
+
+  body {
+    background: url('https://img.freepik.com/foto-gratis/marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-52706.jpg') center/cover no-repeat fixed; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /*NAVBAR osea barra de navegación*/
+  .navbar {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    
+    }
+    
+    .navbar{
+    
+    list-style:none;
+    
+    }
+    
+    .navbar li {
+    
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    .navbar a {
+        display: block;
+        padding: 10px 15px; /* Espacio para lo que hay dentro del botón*/
+        text-decoration: none;
+        background-color: rgb(22, 22, 22); /* Color de fondo del botón*/
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    /* Estilo botones en general excepto los del navbar */
+    button{
+
+        padding: 9px 25px;
+        background-color: rgb(228, 215, 225);
+        border:none;
+        border-radius: 50px;
+        cursor:pointer;
+        transition: all 0.3s ease 0s;
+    }
+    
+    
+    button:hover {
+    
+        background-color: aqua(0,136,169,0.8);
+    }
+    
